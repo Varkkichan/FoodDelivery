@@ -1,0 +1,12 @@
+.big{
+    background: url('bghome.png');
+    object-fit: cover;
+    
+}
+
+.sbg{
+    background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
+}

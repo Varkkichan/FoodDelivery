@@ -1,0 +1,238 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.logoname{
+    font-family: Mrs Sheppards;
+    float: left;
+    margin-top: 16px;
+    color: #FF4646;
+}
+.main{
+    height: 350px;
+    position: static;
+  text-align: center;
+  color: white;
+  line-height: 1.3;
+
+}
+.bgim{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.txt{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 130px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Poppins;
+}
+.srch{
+    background-color: white;
+    color: #FF4646;
+    border-color: #FF4646;
+}
+.srch:hover{
+    background-color: #FF4646;
+    color: white;
+    border-color: white;
+}
+.ordrnow{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Montserrat;
+}
+.plr{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: Fredoka;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #FA4A0C;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 2px solid #FA4A0C;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #FA4A0C;
+}
+
+.price {
+    color: #FA4A0C;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF4646;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scroll-left {
+    left: 10px;
+}
+
+#scroll-right {
+    right: 10px;
+}
+
+.scroll-btn:hover {
+    background-color: #d93b0a;
+}
+
+.hotel-list-container {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+
+.hotel-list {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+.hotel {
+    min-width: 200px;
+    margin: 10px;
+    flex: 0 0 auto;
+    border: none;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF4646;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.scroll-button.left {
+    left: 0;
+}
+
+.scroll-button.right {
+    right: 0;
+}
+
+
+
+
+
+footer {
+    background-color: #FF4F19;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.9em; /* Make the Academeals heading slightly smaller */
+    color: #000000; /* Black color for the heading */
+    margin: 0 0 10px 0;
+}
+
+.footer-section h2 {
+    font-size: 1.2em; /* Adjust other headings slightly smaller */
+    color: #000000; /* Black color for the headings */
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.footer-section p, .footer-section ul, .footer-section h1, .footer-section h2 {
+    font-size: 0.7em; /* Make the content slightly smaller */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF4F19;
+    font-size: 0.9em; /* Make the text slightly smaller */
+}
+.beBold {
+    color: #000000;
+    font-weight: bold;
+}
+.copyright{
+    color: #000;
+    font-weight: 600;
+}
+
